@@ -52,6 +52,7 @@ const nx = inArg.nx || false,
   debug = inArg.debug || false,
   clear = inArg.clear || false,
   addflag = inArg.flag || false,
+  fgf = inArg.fgf || 🅂🄼 ,
   nm = inArg.nm || true;
 
 const FGF = inArg.fgf == undefined ? " " : decodeURI(inArg.fgf),
