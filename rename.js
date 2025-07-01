@@ -52,9 +52,9 @@ const nx = inArg.nx || false,
   debug = inArg.debug || false,
   clear = inArg.clear || false,
   addflag = inArg.flag || false,
-  nm = inArg.nm || false;
+  nm = inArg.nm || true;
 
-const FGF = inArg.fgf == undefined ? "🅂🄼 " : decodeURI(inArg.fgf),
+const FGF = inArg.fgf == undefined ? " " : decodeURI(inArg.fgf),
   XHFGF = inArg.sn == undefined ? " " : decodeURI(inArg.sn),
   FNAME = inArg.name == undefined ? "" : decodeURI(inArg.name),
   BLKEY = inArg.blkey == undefined ? "" : decodeURI(inArg.blkey),
