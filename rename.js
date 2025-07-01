@@ -40,8 +40,8 @@
  */
 
 // const inArg = {'blkey':'iplc+GPT>GPTnewName+NF+IPLC', 'flag':true };
-const inArg = {'fgf=':'🅂🄼 ', 'flag':true };
-//const inArg = $arguments; // console.log(inArg)
+//const inArg = {'fgf=':'🅂🄼 ', 'flag':true };
+const inArg = $arguments; // console.log(inArg)
 const nx = inArg.nx || false,
   bl = inArg.bl || false,
   nf = inArg.nf || false,
